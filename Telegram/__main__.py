@@ -164,7 +164,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                             ),
                             InlineKeyboardButton(
                                 text=gs(chat.id, "source_btn"),
-                                url="https://github.com/ITZ-ZAID/Telegram",
+                                url="https://github.com/bhausetup/cherryrobot",
                             ),
                         ],
                         [
@@ -260,7 +260,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                             ),
                             InlineKeyboardButton(
                                 text=gs(chat.id, "source_btn"),
-                                url="https://github.com/ITZ-ZAID/Telegram",
+                                url="https://github.com/bhausetup/cheeryrobot",
                             ),
                         ],
                         [
@@ -668,7 +668,7 @@ def donate(update: Update, _: CallbackContext):
         context: CallbackContext -
     """
 
-    update.effective_message.reply_text("can Donate Via \n Razorpay 👉 https://pages.razorpay.com/GODFATHERDONATIONS \n PayPal 👉 https://www.paypal.com/paypalme/mrakki58 for more Contact in @Godfatherakki!  >_<")
+    update.effective_message.reply_text("ᴋᴏɪɪ ʙʜɪ ʙᴏᴛ ꜱᴇ ʀᴇʟᴀᴛᴇᴅ ᴘʀᴏʙʟᴇᴍ ʜᴏ ᴛᴏ ᴅᴍ ᴋʀ ꜱᴋᴛᴀ ʜᴏ ᴀᴘ @DRACULA_CHEERY @I_LOVE_YOU_MY_HEARTBEET >_<")
 
 
 @zaidmsg(Filters.status_update.migrate)
@@ -724,6 +724,6 @@ def main():
 
 
 if __name__ == "__main__":
-    log.info("[TELEGRAM] Successfully loaded modules: " + str(ALL_MODULES))
+    log.info("[cherryrobot] Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
